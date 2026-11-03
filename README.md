@@ -19,7 +19,7 @@ Enable Pages from **main / (root)**. Documentation can also be uploaded but is n
 
 ## Preview
 
-Open `index.html` in a browser after extracting the complete folder. Or, from this directory:
+The security policy is designed for HTTP/HTTPS serving. Preview from a local server rather than opening files with `file://`. From this directory:
 
 ```bash
 python3 -m http.server 8000
@@ -65,3 +65,7 @@ Design inspiration: https://zerodayengineering.com/ . The implementation, visual
 No third-party font requests, analytics, cookies, API keys, or backend. Email opens the visitor's configured email application. All asset paths are relative so the portfolio supports both account sites and repository/project sites.
 
 After publishing, optionally add the final site URL as a canonical link and replace the relative `og:image` with the full HTTPS URL of your published portrait for more reliable social previews.
+
+## Security hardening update — 3 November 2026
+
+Both HTML pages now have an early meta Content Security Policy and a no-referrer policy. See `SECURITY_SETUP.md` for deployment, account protection, verification, and limits. This update has not been deployed to your live GitHub repository. The separate standalone visual preview is not the deployment artifact.
