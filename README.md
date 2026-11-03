@@ -66,4 +66,4 @@ After publishing, optionally add the final site URL as a canonical link and repl
 
 ## Security hardening update — 3 November 2026
 
-Both HTML pages now have an early meta Content Security Policy and a no-referrer policy. See `SECURITY_SETUP.md` for deployment, account protection, verification, and limits. This update has not been deployed to your live GitHub repository. The separate standalone visual preview is not the deployment artifact.
+Both HTML pages now have an early meta Content Security Policy and a no-referrer policy. See `SECURITY_SETUP.md` for deployment, account protection, verification, and limits.
