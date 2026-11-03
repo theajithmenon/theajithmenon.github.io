@@ -44,12 +44,10 @@ The portrait uses CSS grayscale. Remove `grayscale(100%)` from `.portrait img` t
 
 ## Content provenance
 
-Professional content is based on the supplied résumé. The CVE credit, dates, and historical fix were checked against Joomla's official advisory on 3 November 2026:
+The CVE credit, dates, and historical fix can be checked against Joomla's official advisory on 3 November 2026:
 https://developer.joomla.org/security-centre/886-20221002-core-reflected-xss-in-various-components.html
 
 INDRA and AI assessment entries are high-level project summaries, not links to publicly released source code. The site does not publish internal security infrastructure details, investigation records, credential IDs, a phone number, or the original résumé PDF. The contact email and LinkedIn URL come from the supplied résumé.
-
-Design inspiration: https://zerodayengineering.com/ . The implementation, visual assets, and copy were created for this portfolio; no third-party site assets or branding are bundled.
 
 ## Verification
 
